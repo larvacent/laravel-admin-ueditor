@@ -1,17 +1,17 @@
 UEditor extension for laravel-admin
 ======
 
-这是一个 `laravel-admin` 扩展，用来将 [UEditor](https://ueditor.baidu.com/website/index.html) 集成进 `laravel-admin` 的表单中，依赖 [overtrue/laravel-ueditor](https://github.com/overtrue/laravel-ueditor)
+这是一个 `laravel-admin` 扩展，用来将 [UEditor](https://ueditor.baidu.com/website/index.html) 集成进 `laravel-admin` 的表单中，依赖 [larvacent/laravel-ueditor](https://github.com/larvacent/laravel-ueditor)
 
 ## 安装
 
 ```bash
-composer require codingyu/ueditor
+composer require larva/laravel-admin-ueditor
 ```
 
 发布 `overtrue/laravel-ueditor` 的资源
 ```bash
-php artisan vendor:publish --provider='Overtrue\LaravelUEditor\UEditorServiceProvider'
+php artisan vendor:publish --provider='Larva\LaravelUEditor\UEditorServiceProvider'
 ```
 
 ## 配置
